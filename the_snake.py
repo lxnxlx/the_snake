@@ -52,8 +52,8 @@ class GameObject:
 
     def __init__(
             self,
-            position,
-            body_color
+            position=(0, 0),
+            body_color=(0, 0, 0)
     ):
         self.position = position
         self.body_color = body_color
